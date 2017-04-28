@@ -1,0 +1,301 @@
+span{
+	text-transform: capitalize;
+
+}
+button{
+	font-size: 14px;
+	background-color: rgba(0,0,0,0);
+	border: none;
+	color: #cc3333;
+	margin: 5px 0px;
+	padding: 0px;
+	outline: none;
+}
+button span{
+	font-size: 14px;
+}
+.wrapper{
+	padding: 0px;
+	margin: 0px;
+	background-color: #222222;
+}
+
+.activPunkt {
+	color: #cc3333 !important;
+}
+
+.none-background{
+	background-color: rgba(0,0,0,0);
+}
+aside{
+	margin: 0px 5px;
+    width: 80%;
+}
+
+aside p{
+	margin: 13px 0px;
+}
+
+.aside1{
+	border-bottom-width: 1px; /* Толщина линии внизу */
+    border-bottom-style: solid; /* Стиль линии внизу */
+    border-bottom-color: #353535; /* Цвет линии внизу */
+}
+
+
+aside p img{
+	border: 3px solid #fff;
+	border-radius: 10px;
+
+}
+aside menu{
+	margin: 0px;
+	padding: 0px;
+	margin: 22px 0px
+}
+
+aside menu li{
+	list-style-type: none;
+	font-size: 14px;
+	color: #fff;
+	padding: 5px 0px;
+}
+
+.aside1 menu li a{
+	font-weight: 600;
+	color: #fff;
+	text-decoration: none;
+}
+
+.aside1 menu li a:hover{
+	transition: 0.4s; 
+	color:#cc3333;
+}
+
+aside menu li span{
+	text-transform: capitalize;
+}
+
+.aside2 menu li a{
+	color:#959595;
+	text-decoration: none;
+}
+.aside2 menu li a:hover{
+	transition: 0.4s;
+	color: #fff;
+}
+.activPunkt2{
+	color: #fff !important;
+}
+
+aside p {
+	position: relative;
+}
+
+aside p input{
+	max-width: 100%;
+	color:#959595;
+	text-transform: capitalize;
+	background-color: rgba(0,0,0,0);
+	font-size: 14px;
+	padding: 7px 1px 7px 7px;
+	border-radius: 5px;
+	border: 1px solid #353535;
+	position: relative;
+    top: -7px;
+}
+
+aside p i{
+	position: absolute;
+	right: 14px;
+    top: -1px;
+	font-size: 20px !important;
+	color: #999999;
+	display: inline-block;
+}
+
+input[type="text"]:focus { outline: none; }
+
+/*--------------------------------------------------*/
+
+.background-color{
+	background-color: #fff;
+	padding: 0px 0px 0px 0px;
+}
+.nonepadding{
+	padding: 0px;
+}
+
+header p{
+	padding: 15px 0px;
+}
+
+.background-color header{
+	font-size: 14px;
+	color: #959595;
+}
+
+.background-color header .logaut{
+	text-align: right;
+
+}
+.background-color header span{
+	text-transform: capitalize;
+}
+
+.background-color header span a{
+	border-bottom-width: 1px; /* Толщина линии внизу */
+    border-bottom-style: dotted; /* Стиль линии внизу */
+    border-bottom-color: #bababa; /* Цвет линии внизу */
+    text-decoration: none;
+    color: #959595;
+    transition: 0.5s;
+}
+
+.background-color header span a:hover{
+	transition: 0.5s;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+main{
+	border-top-width: 4px; /* Толщина линии внизу */
+    border-top-style: solid; /* Стиль линии внизу */
+    border-top-color: #222222; /* Цвет линии внизу */
+}
+main section{
+	margin: 30px 0px;
+}
+
+main section .contener-post{
+	margin-bottom: 20px;
+}
+
+.img1{
+	width: 100%;
+  	height: auto;
+}
+
+
+main section .contener-post-text p{
+	padding-bottom: 15px;
+	color: #222222;
+}
+
+main section .contener-post-text p span{
+	font-weight: 600;
+}
+
+/*main section .contener-post-text*/ button{
+	font-size: 14px;
+	background-color: rgba(0,0,0,0);
+	border: none;
+	color: #cc3333;
+	margin: 5px 0px;
+	padding: 0px;
+	outline: none;
+}
+
+main section h1{
+	font-size: 36px;
+	font-weight: 600;
+}
+main section p{
+	font-size: 14px;
+	font-weight: 100;
+	color: #b5b5b5;
+}
+
+.social-network img{
+	max-width: 100%;
+  	height: auto;
+}
+
+.social-network {
+	position: absolute;
+	right: 14%;
+	bottom: 0px;
+}
+.line-bottom{
+	border-bottom-width: 1px; 
+    border-bottom-style: solid;
+    border-bottom-color: #e7e7e7; 
+}
+
+
+/*------------------------------------------------------------------------*/
+
+.Main-container{
+	/*border-top-width: 1px; 
+    border-top-style: solid;
+    border-top-color: #e7e7e7; */
+	margin: 30px 15px;
+}
+
+.img2{
+	max-width: 100%;
+	height: 300px;
+	transition: 0.3s;
+}
+
+.img2:hover{
+	transition: 0.3s;
+	 -webkit-transform: scale(1.1);/*для увеличения картинки*/
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+.bulk-container{
+	display: inline-block;
+	padding-bottom: 30px;
+	overflow: hidden;
+	transition: 0.3s;
+}
+
+.bulk-container .zag-post{
+	font-size: 24px;
+	font-weight: 900;
+	color: #222222;
+	padding: 20px 0px 5px 0px;
+
+}
+.bulk-container .min-zag-post{
+	font-size: 14px;
+	color: #b5b5b5;
+	padding-bottom: 10px;
+}
+.bulk-container .bulk-post{
+	font-size: 14px;
+	color :  #222222;
+	padding: 5px 0px;
+	min-height: 100px;
+}
+
+footer{
+	background-color: #051515;
+	padding: 15px;
+}
+.footer-menu p{
+	padding-bottom: 10px;
+}
+
+footer p{
+	text-align: center;
+	
+}
+
+.copi {
+	padding-top: 10px;
+
+}
+
+footer p span{
+	font-size: 14px;
+	color: #6b6d6d;
+	margin: 0px 15px;
+}
+
+
+
+
